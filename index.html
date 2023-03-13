@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group">
+        <h1>Busca aquí tu personaje de Rick y Morty</h1>
+      </div>
+      <form id="form" class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          id="buscar"
+          placeholder="buscar"
+        />
+        <input type="submit" value="Buscar Personaje" class="btn btn-primary" />
+      </form>
+      <div class="personajes d-flex flex-wrap gap-1 justify-content-center">
+        <!-- personajes -->
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
+      integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
